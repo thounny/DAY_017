@@ -40,7 +40,7 @@ This project replicates key visual and interactive elements from the award-winni
 - **Clip-path Animation**: Certain elements use `clip-path` to create a "wipe" effect, revealing content smoothly.
 - **Hover Interactivity**: The word "future" begins blurred and becomes sharp on hover, offering dynamic user interaction.
 
-### Short Code Snippet
+### JavaScript (GSAP)
 
 ```javascript
 const tl = gsap.timeline({ delay: 1 });
@@ -50,8 +50,6 @@ tl.to(".img", { y: 0, opacity: 1, duration: 1.5, stagger: 0.05 })
   .to(".img:not(#loader-logo)", { clipPath: "polygon(0% 0%, 100% 0%)", duration: 1 }, "-=1")
   .to(".nav-item, h1, footer, .item", { y: 0, opacity: 1, stagger: 0.1, duration: 1 }, "-=0.5");
 ```
-
-### Explanation
 
 1. **Image Reveal**: The `.img` elements slide up from below and fade in simultaneously.
 2. **Loader Animation**: The loader images move horizontally from off-screen to their final position.
