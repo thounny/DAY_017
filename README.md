@@ -38,7 +38,7 @@ This project replicates key visual and interactive elements from the award-winni
 
 - **Staggered Image and Text Reveal**: Images and text elements slide and fade in from off-screen.
 - **Clip-path Animation**: Certain elements use `clip-path` to create a "wipe" effect, revealing content smoothly.
-- **Hover Interactivity**: The word "future" begins blurred and becomes sharp on hover, offering dynamic user interaction.
+- **Hover Interactivity**: The words "inspire innovation" begins blurred and becomes sharp on hover, offering dynamic user interaction.
 
 ### JavaScript (GSAP)
 
